@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="S5_Lab.LabelDemo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Este es un texto subrayado" TextDecorations="Underline"
+                FontSize="Large" />
+            <Label Text="Este es un texto tachado" TextDecorations="Strikethrough" />
+            <Label Text="Este es un texto subrayado y tachado" TextDecorations="Underline,Strikethrough"  />
+            <Label Text="Esto es una prueba" BackgroundColor="Red" ></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
